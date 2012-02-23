@@ -2,10 +2,6 @@ import java.awt.Point;
 import java.util.Random;
 
 /**
- * 
- */
-
-/**
  * @author Szymon Laszczynski
  *
  */
@@ -19,7 +15,7 @@ public class SimpleSudokuGenerator {
 	 * | 6 | 7 | 8 |
 	 * |___|___|___|
 	 * 
-	 *  Having row R and colum C
+	 *  Having row R and column C
 	 *  we compute group ID by
 	 *  floor(R/3)*3 + floor(C/3)
 	 * */
